@@ -27,3 +27,30 @@ export const fetchQueryTasksSuccess = (res) => ({
 export const fetchQueryTasksFail = () =>({
     type: actionTypes. QUERY_TASKS_FAIL
 })
+
+// Delete task
+export const fetchDeleteTasks = (taskId) =>{
+    return async (dispatch, getState) => {
+        try{
+            if(taskId){
+                let res = await taskService.handleOnDeleteTask(taskId);
+                if(res){
+                    dispatch(fetchDeleteTaskSuccess(res))
+                } else {    
+                    dispatch(fetchDeleteTaskFail());
+                }
+            }
+        } catch(e){
+            dispatch(fetchDeleteTaskFail());
+            console.log("fecthGetAllDoctors error", e);
+        }
+
+    }
+}
+export const fetchDeleteTaskSuccess = (res) => ({
+    type: actionTypes.API_TASK_SUCESS,
+    res: res
+})
+export const fetchDeleteTaskFail = () =>({
+    type: actionTypes. API_TASK_FAIL
+})

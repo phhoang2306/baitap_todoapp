@@ -1,6 +1,7 @@
 import actionTypes from '../actions/actionTypes';
 const initialState = {
-    tasks : []
+    tasks : [], 
+    res: ''
 }
 const taskReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -13,6 +14,16 @@ const taskReducer = (state = initialState, action) => {
             return {
                 ...state,
                 tasks: []
+            }
+        case actionTypes.API_TASK_SUCESS: 
+            return {
+                ...state,
+                res: action.res
+            }
+        case actionTypes.API_TASK_FAIL: 
+            return {
+                ...state,
+                res: ''
             }
         default:
             return state;

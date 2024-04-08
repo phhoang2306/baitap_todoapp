@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const app = require('./app');
 const config = require('./config/config');
 
-let server
+let server;
 // Connect DB
 mongoose.connect(config.mongoose.url).then(() => {
     console.log('Connected to MongoDB');
@@ -29,6 +29,7 @@ const unexpectedErrorHandler = (error) => {
 
 process.on('uncaughtException', unexpectedErrorHandler);
 process.on('unhandledRejection', unexpectedErrorHandler);
+
 process.on('SIGTERM', () => {
   console.log('server out')
   if (server) {

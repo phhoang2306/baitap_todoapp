@@ -23,12 +23,12 @@ class Task extends Component {
         }
     }
     async componentDidMount() {
-        await this.props.queryTasks(this.state.page, this.state.limit)
-        this.setState({
-            listTasks: this.props.tasks.results,
-            totalPages: this.props.tasks.totalPages,
-            page: this.props.tasks.page
-        })
+        await this.handleGetTasks()
+    }
+    componentDidUpdate(prevProps, prevState, snapshot){
+        if(prevProps.tasks !== this.props.tasks){
+            console.log('1')
+        }
     }
     handleOnChangePage = async(number) => { 
         await this.props.queryTasks(number.selected + 1, this.state.limit)
@@ -36,6 +36,14 @@ class Task extends Component {
             listTasks: this.props.tasks.results,
             totalPages: this.props.tasks.totalPages,
         })
+    }
+    handleGetTasks = async() =>{
+        await this.props.queryTasks(this.state.page, this.state.limit)
+                this.setState({
+                    listTasks: this.props.tasks.results,
+                    totalPages: this.props.tasks.totalPages,
+                    page: this.props.tasks.page
+                })
     }
     handleOnClickDelete = async(task) =>{
         this.setState(({

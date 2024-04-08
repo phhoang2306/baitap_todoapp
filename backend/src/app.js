@@ -6,6 +6,8 @@ const compression = require('compression'); // reduce a size of data sent to cli
 const cors = require('cors'); // Prevent connect from out side
 const httpStatus = require('http-status'); // Return of HTTP Status
 const express = require('express');
+const ApiError = require('./utils/ApiError');
+const routes = require('./routes');
 
 // Setup app
 const app = express();
@@ -30,20 +32,13 @@ app.use(compression());
 app.use(cors()); 
 app.options('*', cors());
 
-// Start the server
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-    console.log(`Server is listening on port ${port}`);
-});
+// v1 api routes
+app.use('/', routes);
 
 // Send back 404 error for any unknown API request
 app.use((req, res, next) => {
   next(new ApiError(httpStatus.NOT_FOUND, 'Not found'));
 });
 
-// Define a route
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
 
 module.exports = app;
