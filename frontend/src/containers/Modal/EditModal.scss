@@ -1,0 +1,16 @@
+.modal-dialog{
+    .modal-content{
+        .modal-body{
+            gap: 10px; 
+            display: flex;
+            flex-direction: column;
+            .info{
+                gap: 2px;
+            }
+            .body-title{
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+    }
+}

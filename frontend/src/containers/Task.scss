@@ -1,0 +1,52 @@
+.task-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title{
+        display: flex;
+        margin: 10px 0;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .table-container{
+        width: 90%;
+        .id_column{
+            width: 5%;
+        }
+        .title_column{
+            width: 20%;
+        }
+        .assignee_column{
+            width: 10%;
+        }
+        .content_column{
+            width: 50%;
+        }
+        .status_column{
+            width: 5%;
+        }
+        .table_row{
+            border: 1px solid rgb(195, 191, 191);
+            text-align: center;
+        }
+        .edit-btn{
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #9a4e1c;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .del-btn{
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #e3300c;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

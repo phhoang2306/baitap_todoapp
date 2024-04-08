@@ -1,0 +1,146 @@
+{
+    "home":{
+        "specialty": "Chuyên khoa",
+        "find-doctor": "Tìm bác sĩ theo chuyên khoa",
+        "facility": "Cơ sở y tế",
+        "choose-facility": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "choose-doctor": "Chọn bác sĩ giỏi",
+        "package": "Gói khám",
+        "check-health": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào"
+    },
+    "banner":{
+        "tittle-1": "NỀN TẢNG Y TẾ",
+        "tittle-2":"CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "text-placeholder": "Tìm chuyên khoa khám bệnh",
+        "child-1": "Khám chuyên khoa",
+        "child-2": "Khám từ xa",
+        "child-3": "Khám tổng quát",
+        "child-4": "Xét nghiệm y học",
+        "child-5": "Sức khỏe tinh thần",
+        "child-6": "Khám nha khoa"
+    },
+    "specialty": {
+        "tittle": "Chuyên khoa phổ biến",
+        "specialty_1": "Cơ xương khớp",
+        "specialty_2": "Thần kinh",
+        "specialty_3": "Tiêu hóa",
+        "specialty_4": "Tim mạch",
+        "specialty_5": "Tai mũi họng",
+        "specialty_6": "Cột sống",
+        "specialty_7": "Y học cổ truyền",
+        "specialty_8": "Châm cứu"
+    },
+    "medical": {
+        "tittle": "Cơ sở y tế nổi bật",
+        "medical_1": "Bệnh viện Hữu nghị Việt Đức",
+        "medical_2": "Bệnh viện Chợ Rẫy",
+        "medical_3": "Bệnh viện đại học Y Dược 1",
+        "medical_4": "Bệnh viện Trung Ương 108",
+        "medical_5": "Bệnh viện ung bướu Hưng Việt",
+        "medical_6": "Hệ thống y tế Medlatec",
+        "medical_7": "Trung tâm xét nghiệm Diag",
+        "medical_8": "Hệ thống y tế Thu Cúc TCI"
+    },
+    "doctor":{
+        "tittle": "Bác sĩ nổi bật",
+        "information": "Thông tin bác sĩ",
+        "choose": "Chọn bác sĩ",
+        "price": "Chọn giá khám bệnh",
+        "payment": "Chọn phương thức thanh toán",
+        "province":"Chọn tỉnh thành",
+        "clinic": "Chọn tên phòng khám",
+        "address": "Địa chỉ phòng khám",
+        "note": "Ghi chú"
+    },
+    "handbook":{
+        "title": "Cẩm nang",
+        "handbook_1": "Bài 1: 3 bài học sau hành trình chinh phục Tà Xùa",
+        "handbook_2": "Bài 2: 3 điều tạo nên điều thú vị của cung leo núi Tà Xùa",
+        "handbook_3": "Bài 3: Những người đồng hành trong hành trình leo đỉnh Tà Xùa",
+        "handbook_4": "Bài 4: Xuống núi và kết thúc"
+    },
+    "common": {
+        "btn_content": "Xem thêm",
+        "social": "Truyền thông xã hội"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý người dùng redux"            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin":{
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin":"Quản lí Admin",
+            "crud": "CRUD",
+            "crud-redux": "Quản lí người dùng",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lí phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lí chuyên khoa",
+            "post": "Bài đăng",
+            "manage-post": "Quản lí bài đăng",
+            "manage-doctor-info": "Quản lí thông tin bác sĩ"
+        },
+        "doctor":{
+            "schedule": "Quản lí lịch khám"
+        }
+    },
+    "user":{
+        "add": "Tạo người dùng mới",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "fullname": "Họ tên",
+        "address": "Địa chỉ",
+        "phone":"Số điện thoại",
+        "gender": "Giới tính",
+        "male": "Nam",
+        "female": "Nữ",
+        "position": "Vị trí",
+        "role": "Vai trò",
+        "image": "Ảnh đại diện",
+        "create": "Tạo người dùng",
+        "edit": "Lưu thông tin",
+        "action": "Chức năng",
+        "upload-image":"Tải ảnh"
+    },
+    "system":{
+        "save":"Lưu thông tin",
+        "create": "Tạo thông tin"
+    },  
+    "schedule":{
+        "manage": "Quản lí lịch khám bác sĩ",
+        "date": "Chọn ngày",
+        "schedule": "Lịch khám",
+        "noti": "Không có lịch hẹn trong thời gian này, vui lòng chọn thời gian khác!",
+        "choose": "Chọn và đặt miễn phí",
+        "address": "Địa chỉ phòng khám",
+        "price": "Giá khám",
+        "seemore": "Xem chi tiết",
+        "content": "Bác sĩ có hình thức thanh toán: ",
+        "priority": "Được ưu tiên khám trước khi đặt khám qua BookingCare",
+        "seeless": "Ẩn bảng giá"
+    },
+    "booking":{
+        "title": "Thông tin đặt lịch khám bệnh",
+        "confirm": "Xác nhận",
+        "cancel": "Hủy",
+        "name": "Tên bệnh nhân",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "address":"Địa chỉ liên hệ",
+        "reason": "Lý do khám bệnh",
+        "who": "Đặt cho ai",
+        "sex": "Giới tính",
+        "free": "Miễn phí đặt lịch"
+    }
+}

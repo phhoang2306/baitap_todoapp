@@ -1,0 +1,147 @@
+{
+    "home":{
+        "specialty": "Medical specialty",
+        "find-doctor": "Find a doctor by specialty",
+        "facility": "Health facilities",
+        "choose-facility": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "choose-doctor": "Choose a good doctor",
+        "package": "Checkup package",
+        "check-health": "General health check",
+        "support": "Support",
+        "welcome": "Welcome"
+
+    },
+    "banner":{
+        "tittle-1": "MEDICAL PLATFORM",
+        "tittle-2": "COMPREHENSIVE HEALTH CARE",
+        "child-1": "Specialized examination",
+        "child-2": "Remote examination",
+        "child-3": "General examination",
+        "child-4": "Medical examination",
+        "child-5": "Mental health",
+        "child-6": "Dental examination"
+    },
+    "specialty": {
+        "tittle": "Popular Specialty",
+        "specialty_1": "Musculoskeletal",
+        "specialty_2": "Neurology",
+        "specialty_3": "Digestion",
+        "specialty_4": "Heart",
+        "specialty_5": "Ear Nose Throat",
+        "specialty_6": "Spine",
+        "specialty_7": "Traditional Medicine",
+        "specialty_8": "Acupuncture"
+    },
+    "medical": {
+        "tittle": "Popular Medical Facility",
+        "medical_1": "Viet Duc Friendship Hospital",
+        "medical_2": "Cho Ray Hospital",
+        "medical_3": "University Hospital of Medicine and Pharmacy 1",
+        "medical_4": "Central Hospital 108",
+        "medical_5": "Hung Viet Oncology Hospital",
+        "medical_6": "Medlatec Medical System",
+        "medical_7": "Diag Testing Center",
+        "medical_8": "Thu Cuc TCI Medical System"
+    },
+    "doctor":{
+        "tittle": "Outstanding Doctor",
+        "information": "Doctor's Information",
+        "choose": "Choose Doctor",
+        "price": "Choose price",
+        "payment": "Choose payment",
+        "province":"Choose province",
+        "clinic": "Choose clinic name",
+        "address": "Clinic Address",
+        "note": "Note"
+    },
+    "handbook":{
+        "title": "Handbook",
+        "handbook_1": "Lesson 1: 3 lessons after the journey to conquer Ta Xua",
+        "handbook_2": "Lesson 2: 3 things that make Ta Xua climbing arc interesting",
+        "handbook_3": "Lesson 3: Companions on the journey to climb Ta Xua peak",
+        "handbook_4": "Lesson 4: Descending the mountain and ending"
+    },
+    "common": {
+        "social": "Social Media",
+        "btn_content": "See more"  
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "User manage redux" 
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin":{
+            "manage-user": "User",
+            "manage-doctor": "Manage Doctor",
+            "manage-admin":"Manage Admin",
+            "crud": "CRUD",
+            "crud-redux": "Manage User",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage Clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage Specialty",
+            "post": "Post",
+            "manage-post": "Manage Post",
+            "manage-doctor-info": "Manage Doctor's Information"
+        },
+        "doctor":{
+            "schedule": "Manage Schedule"
+        }
+    },
+    "user":{
+        "add": "Create new user",
+        "email": "Email",
+        "password": "Password",
+        "fullname": "Full name",
+        "address": "Address",
+        "phone":"Phone number",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "position": "Position",
+        "role": "Role",
+        "image": "Avatar",
+        "create": "Create user",
+        "edit": "Save Information",
+        "action": "Action",
+        "upload-image":"Upload image"
+    },
+    "system":{
+        "save":"Save",
+        "create": "Create"
+    },
+    "schedule":{
+        "manage": "Manage doctor's schedule",
+        "date": "Choose date",
+        "schedule": "Doctor Schedule",
+        "noti": "No appointments available during this time, please choose another time!",
+        "choose": "Choose and book for free",
+        "address": "Adreess",
+        "price": "Price",
+        "seemore": "See details",
+        "content": "Doctor has payment method: ",
+        "priority": "Get priority check-up before booking through BookingCare",
+        "seeless": "Hide price list"
+    },
+    "booking":{
+        "title": "Information on medical examinations",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "name": "Patient name",
+        "phone": "Phone number",
+        "email": "Email",
+        "address":"Contact address",
+        "reason": "Reason for medical examination",
+        "who": "For who",
+        "sex": "Gender",
+        "free": "Free appointment"
+    }
+}
